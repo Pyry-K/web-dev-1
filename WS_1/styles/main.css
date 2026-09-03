@@ -39,6 +39,13 @@ p {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  margin-left: 100px;
+}
+.img1 {
+  display: block;
   max-width: 40%;
   height: auto;
   margin: 20px auto;
