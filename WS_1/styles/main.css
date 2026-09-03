@@ -1,0 +1,56 @@
+:root {
+  --meri: #DCDEDD;
+  --meri2: #D9DDD9;
+  --bg-1: #75C9C9;
+  --bg-2: #6CADB1;
+  --aqua: #94B2AD;
+  --Reg-Ruskea: #B09981;
+  --Reg-harmaa: #948F89;
+  --Reg-Kivi: #BAB5AF;
+  --max-width: 1000px;
+  --container-padding: 20px;
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font);
+  color: var(--aqua);
+  background: linear-gradient(180deg, var(--bg-1) 0%, var(--bg-2) 100%);
+  min-height: 100vh;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: var(--meri);
+}
+p {
+  font-size: 1.3rem;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: var(--meri2);
+}
+img {
+  display: block;
+  max-width: 40%;
+  height: auto;
+  margin: 20px auto;
+  margin-left: 100px;
+}
+a {
+  display: block;
+  font-size: 1.2rem;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+underline {
+  text-decoration: underline;
+}
