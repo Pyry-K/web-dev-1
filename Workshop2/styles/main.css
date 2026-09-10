@@ -61,3 +61,13 @@ a {
 u {
   text-decoration: underline;
 }
+Button {
+  display: block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: var(--meri);
+  background-color: var(--Reg-Ruskea);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+}
