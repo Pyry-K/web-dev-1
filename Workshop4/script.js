@@ -22,6 +22,31 @@ changeTextButton.addEventListener("click", function(){
     animalText.textContent = (`WE LOVE ANIMALS
         ANIMALS ARE SOOOO COOOL`);
 });
+//päivän eläin
+
+const animalContent = document.querySelector("#animalContent");
+const showAnimalButton = document.querySelector("#showAnimalButton");
+const hideAnimalButton = document.querySelector("#hideAnimalButton");
+
+showAnimalButton.addEventListener("click", function() {
+    animalContent.style.display = "block";
+
+    const animalBox = document.createElement("div");
+    animalBox.id = "animalBox";
+    const heading = document.createElement("h3");
+    heading.textContent = "Päivän eläin!";
+    const animalDaily = document.createElement("img");
+    animalDaily.src = "images/REGGI.png";
+    animalDaily.alt = "tämä on reggie";
+
+    animalBox.append(heading, animalDaily);
+    animalContent.append(animalBox);
+
+});
+
+hideAnimalButton.addEventListener("click", function() {
+    animalContent.style.display = "none";
+});
 
 // Animal name & animal image & animal desc
 
